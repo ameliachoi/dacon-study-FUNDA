@@ -10,23 +10,17 @@ DACON 펀다 상점매출 예측 경진대회 studynote
 이번 대회에서는 2년 전부터 2019년 2월 28일까지의 카드 거래 데이터를 이용해 2019-03-01부터 2019-05-31까지의 각 상점별 3개월 총 매출을 예측하는 것입니다.
 
 
-## 단계별 방식 랭킹
+## 시계열 데이터 분석 내용 정리 (Time Series)
 
-A. public score : test 데이터의 50% 채점(제출 시 업데이트)
+1. Simple Moving Average
 
-B. private score : 1단계 public score에서 사용하지 않은 test 데이터의 50% 채점(28일마다 업데이트)
+2. Exponential Moving Average
 
+3. Exponential Smoothing (Simple / Holt's / Holt-winter)
 
-## 코드 평가
+4. ARMA
 
-코드 검증 절차(모델 검증)
+5. ARIMA(AutoRegressive Integrated Moving Average)
 
-1. Pre-Processing for Data Cleaning
-
-2. Feature Engineering and Variable Selection
-
-3. Model Selection and Regularization
-
-4. Optimization Processing
-
+6. Facebook Prophet
 
